@@ -1,3 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Big John PRO";
+  src: url("../public/fonts/BigJohnPro/BigJohnPRO-Regular.woff2");
+}
+
+@font-face {
+  font-family: "Big John PRO";
+  src: url("../public/fonts/BigJohnPro/BigJohnPRO-Bold.woff2");
+}
+
 html,
 body {
   padding: 0;

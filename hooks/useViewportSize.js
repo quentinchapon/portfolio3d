@@ -10,10 +10,8 @@ const useViewportSize = () => {
   }
 
   useEffect(() => {
-    // component is mounted and window is available
     handleWindowResize()
     window.addEventListener("resize", handleWindowResize)
-    // unsubscribe from the event on component unmount
   }, [])
 
   return [width, height]
